@@ -1,0 +1,126 @@
+
+body {
+    background-color: #FFFFFF;
+    color: #000000; 
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #395144;
+    padding: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    top: 0;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #998765;
+}
+
+.sub-header {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: #F0EBCE;
+    border-radius: 5px;
+}
+
+
+
+ul {
+    float: left;
+    list-style:none;
+}
+
+li  {
+    float: left;
+    padding-right: 40px;
+    color: #FFFFFF;
+}
+
+li span {
+    color: #FFFFFF;
+}
+
+
+div {
+    background-color: #F0EBCE;
+    border-radius: 10px;
+}
+
+article {
+    padding: 20px;
+    margin: 0 0 20px 0;
+    background-color: #4e6c50;
+    border-radius: 10px;
+}
+
+
+.research {
+    padding: 10px;
+    margin: 0 0 40px 0;
+    display: inline-block;
+}
+
+img {
+    width: 800px;
+}
+
+.img-float {
+    padding: 20px;
+    margin: auto;
+}
+
+
+.about-me-img {
+    border-radius: 30px;
+    width:400px;
+    text-align: center;
+}
+
+.about-me-img-card {
+    text-align: center;
+}
+
+.about-me-card {
+    background-color: #F0EBCE;
+    display: flex;
+}
+
+.profile-card {
+    position: relative;
+    margin: 0 20px 20px 0;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card p {
+    width: 80%;
+}
+
+.who-am-i {
+    position: relative;
+    width: 70%;
+    float: right;
+    padding: 20px;
+}
+
+.email {
+    font-size: small;
+}
